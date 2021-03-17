@@ -4,8 +4,8 @@ let favriteBooks = ['dark life', 'trials of apollo book 2', 'the heros of olympu
 
 console.log (favriteBooks[0]);
 console.log (favriteBooks[9]);
-console.log (favriteBooks[0, 9]);
+console.log (favriteBooks[0]+ ', ' +favriteBooks[9]);
 
 let numbers = [1,2,3,4,5]
-console.log (numbers[1 + 2]);
-console.log (numbers[0 * 1 * 4]);
+console.log (numbers[1]+numbers[2]);
+console.log (numbers[0]*numbers[1]*numbers[4]);
